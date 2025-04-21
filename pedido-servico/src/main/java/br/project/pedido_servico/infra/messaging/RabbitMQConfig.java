@@ -25,6 +25,6 @@ public class RabbitMQConfig {
 
     @Bean
     public Binding binding(Queue pedidoQueue, DirectExchange pedidoExchange){
-        return BindingBuilder.bind(pedidoExchange).to(pedidoExchange).with(PEDIDO_ROUTING_KEY);
+        return BindingBuilder.bind(pedidoQueue).to(pedidoExchange).with(PEDIDO_ROUTING_KEY);
     }
 }
