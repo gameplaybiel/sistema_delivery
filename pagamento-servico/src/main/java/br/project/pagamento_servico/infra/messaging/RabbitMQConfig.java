@@ -25,7 +25,7 @@ public class RabbitMQConfig {
 
     @Bean
     public Binding binding(Queue pagamentoQueue, DirectExchange pagamentoExchange){
-        return BindingBuilder.bind(pagamentoExchange).to(pagamentoExchange).with(PAGAMENTO_ROUTING_KEY);
+        return BindingBuilder.bind(pagamentoQueue).to(pagamentoExchange).with(PAGAMENTO_ROUTING_KEY);
     }
 }
 
