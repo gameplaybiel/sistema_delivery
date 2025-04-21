@@ -25,6 +25,6 @@ public class RabbitMQConfig {
 
     @Bean
     public Binding binding(Queue entregaQueue, DirectExchange entregaExchange){
-        return BindingBuilder.bind(entregaExchange).to(entregaExchange).with(ENTREGA_ROUTING_KEY);
+        return BindingBuilder.bind(entregaQueue).to(entregaExchange).with(ENTREGA_ROUTING_KEY);
     }
 }
