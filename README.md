@@ -15,7 +15,7 @@ Este sistema de delivery foi desenvolvido com **3 microsserviços independentes*
 
 ## 🧠 Como funciona o sistema de delivery?
 
-Todos os microsserviços se comunicam entre si de forma **assíncrona via RabbitMQ** e possuem **seus próprios bancos de dados PostgreSQL**, garantindo o **princípio de independência de dados** nos microservices.
+Todos os microsserviços se comunicam entre si de forma **assíncrona via RabbitMQ** e possuem **seus próprios bancos de dados PostgreSQL**, garantindo o **princípio de independência de dados** nos microsserviços.
 
 ---
 
