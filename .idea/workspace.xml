@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84c86c17-a480-4d40-8de5-a80b9a8179c3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/sistema_delivery" source="cliente-service" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gameplaybiel&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gameplaybiel/sistema_delivery&quot;,
+    &quot;accountId&quot;: &quot;0a3b9cb4-fc41-4aa8-a3c5-07faa6bb9a09&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xopyqtVfrfmu4HROuBsn7roKaz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ClienteServiceApplication.executor": "Run",
+    "Application.PagamentoServiceApplication (1).executor": "Run",
+    "Application.PagamentoServiceApplication.executor": "Run",
+    "Application.PedidoServiceApplication.executor": "Run",
+    "Application.pagamento-service.executor": "Run",
+    "Application.pagamento_service.executor": "Run",
+    "Docker.sistema_delivery.adminer: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery.rabbitmq_2: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/gabri/Downloads/sistema_delivery[1]/sistema_delivery/pedido-service/pedido-service",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15039062",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pedido-service\pedido-service" />
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pagamento-service\pagamento-service" />
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pagamento-service" />
+      <recent name="C:\Users\gabri\Downloads\pagamento-service" />
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pagamento-service\pagamento-service\src\main\resources" />
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pedido-service\pedido-service\src\main\resources" />
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\cliente-service\cliente-service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PagamentoServiceApplication">
+    <configuration name="ClienteServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tcc.cliente_service.ClienteServiceApplication" />
+      <module name="cliente-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tcc.cliente_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PagamentoServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tcc.pagamento_service.PagamentoServiceApplication" />
+      <module name="pagamento-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tcc.pagamento_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PedidoServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tcc.pedido_service.PedidoServiceApplication" />
+      <module name="pedido-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tcc.pedido_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="sistema_delivery: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="sistema_delivery/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="sistema_delivery.adminer: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="adminer" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="sistema_delivery/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.PagamentoServiceApplication" />
+      <item itemvalue="Application.ClienteServiceApplication" />
+      <item itemvalue="Application.PedidoServiceApplication" />
+      <item itemvalue="Docker.sistema_delivery: Compose Deployment" />
+      <item itemvalue="Docker.sistema_delivery.adminer: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.sistema_delivery.adminer: Compose Deployment" />
+        <item itemvalue="Docker.sistema_delivery: Compose Deployment" />
+        <item itemvalue="Application.PedidoServiceApplication" />
+        <item itemvalue="Application.PagamentoServiceApplication" />
+        <item itemvalue="Application.ClienteServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\gabri\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84c86c17-a480-4d40-8de5-a80b9a8179c3" name="Changes" comment="" />
+      <created>1748614539187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748614539187</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".gitattributes" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1d6c3e5b-afa2-4763-a12b-3f037172cf3b" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1d6c3e5b-afa2-4763-a12b-3f037172cf3b">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/sistema_delivery" />
+      <path value="$PROJECT_DIR$/sistema_delivery/cliente-service" />
+      <path value="$PROJECT_DIR$/sistema_delivery/pedido-service" />
+      <path value="$PROJECT_DIR$/sistema_delivery/pagamento-service" />
+      <path value="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service" />
+    </ignored-roots>
+  </component>
+</project>

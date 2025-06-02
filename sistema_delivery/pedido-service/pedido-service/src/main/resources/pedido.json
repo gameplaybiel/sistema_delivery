@@ -1,0 +1,32 @@
+[
+  {
+    "id":1,
+    "clienteId":1,
+    "descricao":"Lanche X-Tudo",
+    "valor":35.99
+  },
+  {
+    "id":2,
+    "clienteId":2,
+    "descricao":"Marmita Parmegiana de frango",
+    "valor":39.99
+  },
+  {
+    "id":3,
+    "clienteId":3,
+    "descricao":"Marmita Parmegiana de filé-mignon",
+    "valor":38.99
+  },
+  {
+    "id":4,
+    "clienteId":4,
+    "descricao":"Combo X-Burguer",
+    "valor":45.99
+  },
+  {
+    "id":5,
+    "clienteId":5,
+    "descricao":"Nhoque de frango",
+    "valor":30.99
+  }
+]

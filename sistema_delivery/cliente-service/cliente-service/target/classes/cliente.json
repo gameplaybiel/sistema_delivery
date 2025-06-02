@@ -1,0 +1,42 @@
+[
+  {
+    "id":1,
+    "nome":"Gabriel",
+    "cpf":"123.456.789-00",
+    "email":"gabriel@example.com",
+    "telefone":"11999999999",
+    "endereco":"Rua A, 123"
+  },
+  {
+    "id":2,
+    "nome":"João",
+    "cpf":"124.567.890",
+    "email":"joao@example.com",
+    "telefone":"11981658934",
+    "endereco":"Av  José Marion"
+  },
+  {
+    "id":3,
+    "nome":"Carlos",
+    "cpf":"250.560.789-90",
+    "email":"carlos@example.com",
+    "telefone":"11981759821",
+    "endereco":"Av Paulista"
+  },
+  {
+    "id":4,
+    "nome":"Henrique",
+    "cpf":"516.675.550-79",
+    "email":"henrique@example.com",
+    "telefone":"11984659875",
+    "endereco":"Avenida Chicago"
+  },
+  {
+    "id":5,
+    "nome":"Carlos Eduardo",
+    "cpf":"516.656.789-01",
+    "email":"carloseduardo@example.com",
+    "telefone":"11998659876",
+    "endereco":"Avenida JFK"
+  }
+]
