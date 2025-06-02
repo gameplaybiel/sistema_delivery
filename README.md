@@ -53,7 +53,6 @@ Todos os microsserviços se comunicam entre si de forma **assíncrona via Rabbit
 - PostgreSQL
 - Docker & Docker Compose
 - Clean Architecture
-- 
 ---
 
 ## 🧑‍💻 Autor
