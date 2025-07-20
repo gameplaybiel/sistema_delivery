@@ -67,7 +67,7 @@ Durante o desenvolvimento do sistema, enfrentei alguns desafios importantes:
   Inicialmente, era trabalhoso subir manualmente o banco de dados e o RabbitMQ para cada serviço. Resolvi isso criando um ambiente completo com **Docker Compose**, integrando todos os containers (RabbitMQ, PostgreSQL e os microsserviços), facilitando o desenvolvimento e testes locais.
 
 - **Separação de responsabilidades e estrutura do código**  
-  Ao aplicar a **Arquitetura Limpa**, foi desafiador manter os domínios realmente desacoplados e bem organizados. Estudei referências sobre camadas (Use Cases, Entities, Gateways) e fui ajustando a estrutura até que cada serviço tivesse uma base sólida, de fácil manutenção e entendimento.
+  Ao aplicar a **Arquitetura Limpa**, foi desafiador manter os domínios realmente desacoplados e bem organizados. Estudei referências sobre camadas (Use Cases, Entities) e fui ajustando a estrutura até que cada serviço tivesse uma base sólida, de fácil manutenção e entendimento.
 
 Esses desafios me ajudaram a ganhar confiança na construção de sistemas distribuídos e reforçaram meu entendimento sobre boas práticas em arquitetura de software.
 
