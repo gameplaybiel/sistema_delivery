@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84c86c17-a480-4d40-8de5-a80b9a8179c3" name="Changes" comment="" />
+    <list default="true" id="84c86c17-a480-4d40-8de5-a80b9a8179c3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/ClienteServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/ClienteServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/application/dto/ClienteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/application/dto/ClienteDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/application/dto/PedidoRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/application/dto/PedidoRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/application/dto/PedidoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/application/dto/PedidoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/application/usecase/ClienteUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/application/usecase/ClienteUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/domain/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/domain/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/domain/repository/ClienteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/domain/repository/ClienteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/config/ServiceProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/config/ServiceProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/controller/ClienteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/ClienteConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/ClienteConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/ClienteCriadoEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/ClienteCriadoEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/ClienteEventPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/ClienteEventPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/ClienteProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/ClienteProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/RabbitMQConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/rabbitmq/RabbitMQConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/service/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/target/classes/com/tcc/cliente_service/infra/service/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/PagamentoServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/PagamentoServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/application/dto/PagamentoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/application/dto/PagamentoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/application/dto/PedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/application/dto/PedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/application/usecase/PagamentoUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/application/usecase/PagamentoUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/domain/model/MetodoPagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/domain/model/MetodoPagamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/domain/model/Pagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/domain/model/Pagamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/domain/model/StatusPagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/domain/model/StatusPagamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/controller/PagamentoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/controller/PagamentoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/PagamentoConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/PagamentoConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/PagamentoCriadoEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/PagamentoCriadoEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/PagamentoEventPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/PagamentoEventPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/PagamentoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/PagamentoListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/RabbitMQConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/rabbitmq/RabbitMQConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/service/PagamentoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/com/tcc/pagamento_service/infra/service/PagamentoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/PedidoServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/PedidoServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/application/dto/PagamentoRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/application/dto/PagamentoRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/application/dto/PedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/application/dto/PedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/application/usecase/PedidoUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/application/usecase/PedidoUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/domain/model/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/domain/model/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/controller/PedidoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/controller/PedidoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/rabbitmq/PedidoConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/rabbitmq/PedidoConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/rabbitmq/PedidoCriadoEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/rabbitmq/PedidoCriadoEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/rabbitmq/PedidoEventPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/rabbitmq/PedidoEventPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/service/PedidoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/target/classes/com/tcc/pedido_service/infra/service/PedidoService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,26 +98,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ClienteServiceApplication.executor": "Run",
-    "Application.PagamentoServiceApplication (1).executor": "Run",
-    "Application.PagamentoServiceApplication.executor": "Run",
-    "Application.PedidoServiceApplication.executor": "Run",
-    "Application.pagamento-service.executor": "Run",
-    "Application.pagamento_service.executor": "Run",
-    "Docker.sistema_delivery.adminer: Compose Deployment.executor": "Run",
-    "Docker.sistema_delivery.rabbitmq_2: Compose Deployment.executor": "Run",
-    "Docker.sistema_delivery: Compose Deployment.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/gabri/Downloads/sistema_delivery[1]/sistema_delivery/pedido-service/pedido-service",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15039062",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClienteServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PagamentoServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PagamentoServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PedidoServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pagamento-service.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pagamento_service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.sistema_delivery.adminer: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.sistema_delivery.cliente: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.sistema_delivery.nginx: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.sistema_delivery.pagamento: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.sistema_delivery.pedido: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.sistema_delivery.rabbitmq_2: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.sistema_delivery: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/Downloads/sistema_delivery[1]&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pedido-service\pedido-service" />
@@ -81,14 +131,14 @@
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery" />
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pagamento-service" />
       <recent name="C:\Users\gabri\Downloads\pagamento-service" />
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pagamento-service\pagamento-service\src\main\resources" />
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pedido-service\pedido-service\src\main\resources" />
-      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\cliente-service\cliente-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PagamentoServiceApplication">
+  <component name="RunManager" selected="Application.PedidoServiceApplication">
     <configuration name="ClienteServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tcc.cliente_service.ClienteServiceApplication" />
       <module name="cliente-service" />
@@ -142,12 +192,12 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="sistema_delivery.adminer: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="sistema_delivery.pagamento: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="services">
             <list>
-              <option value="adminer" />
+              <option value="pagamento" />
             </list>
           </option>
           <option name="sourceFilePath" value="sistema_delivery/docker-compose.yml" />
@@ -156,19 +206,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PagamentoServiceApplication" />
       <item itemvalue="Application.ClienteServiceApplication" />
+      <item itemvalue="Application.PagamentoServiceApplication" />
       <item itemvalue="Application.PedidoServiceApplication" />
       <item itemvalue="Docker.sistema_delivery: Compose Deployment" />
-      <item itemvalue="Docker.sistema_delivery.adminer: Compose Deployment" />
+      <item itemvalue="Docker.sistema_delivery.pagamento: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.sistema_delivery.adminer: Compose Deployment" />
-        <item itemvalue="Docker.sistema_delivery: Compose Deployment" />
+        <item itemvalue="Application.ClienteServiceApplication" />
         <item itemvalue="Application.PedidoServiceApplication" />
         <item itemvalue="Application.PagamentoServiceApplication" />
-        <item itemvalue="Application.ClienteServiceApplication" />
+        <item itemvalue="Docker.sistema_delivery: Compose Deployment" />
+        <item itemvalue="Docker.sistema_delivery.pagamento: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +237,8 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".gitattributes" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">

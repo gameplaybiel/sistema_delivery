@@ -15,6 +15,8 @@ public class ClienteCriadoEvent implements Serializable {
         this.telefone = telefone;
     }
 
+    public ClienteCriadoEvent(){}
+
     public Long getId() {
         return id;
     }
