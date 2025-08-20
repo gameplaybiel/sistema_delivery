@@ -56,6 +56,9 @@ Todos os microsserviços se comunicam entre si de forma **assíncrona via Rabbit
 
 ---
 
+## 🌐 Demonstração com NGINX
+Para validar as vantagens da arquitetura de microsserviços, configurei o NGINX como load balancer entre duas instâncias do Adminer. O objetivo foi simular redundância e balanceamento de carga. Durante os testes, ao derrubar uma das instâncias, o NGINX continuou redirecionando as requisições para a instância ativa, garantindo o funcionamento do sistema sem interrupções. Essa demonstração comprova na prática três benefícios fundamentais dos microsserviços: resiliência, tolerância a falhas e balanceamento de carga.
+
 ## 🚧 Desafios enfrentados e como superei
 
 Durante o desenvolvimento do sistema, enfrentei alguns desafios importantes:
