@@ -9,5 +9,4 @@ public class PedidoServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PedidoServiceApplication.class, args);
 	}
-
 }

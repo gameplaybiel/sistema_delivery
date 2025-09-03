@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="84c86c17-a480-4d40-8de5-a80b9a8179c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/src/main/java/com/tcc/cliente_service/ClienteServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/cliente-service/cliente-service/src/main/java/com/tcc/cliente_service/ClienteServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pagamento-service/pagamento-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/src/main/java/com/tcc/pedido_service/PedidoServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sistema_delivery/pedido-service/pedido-service/src/main/java/com/tcc/pedido_service/PedidoServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,36 +67,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ClienteServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PagamentoServiceApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.PagamentoServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PedidoServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.pagamento-service.executor&quot;: &quot;Run&quot;,
-    &quot;Application.pagamento_service.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.cliente-service/Dockerfile.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.sistema_delivery.adminer: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.sistema_delivery.adminer_2: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.sistema_delivery.cliente: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.sistema_delivery.nginx: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.sistema_delivery.pagamento: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.sistema_delivery.pedido: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.sistema_delivery.rabbitmq_2: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.sistema_delivery: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/Downloads/sistema_delivery[1]&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ClienteServiceApplication.executor": "Run",
+    "Application.PagamentoServiceApplication (1).executor": "Run",
+    "Application.PagamentoServiceApplication.executor": "Run",
+    "Application.PedidoServiceApplication.executor": "Run",
+    "Application.pagamento-service.executor": "Run",
+    "Application.pagamento_service.executor": "Run",
+    "Docker.cliente-service/Dockerfile.executor": "Run",
+    "Docker.sistema_delivery.adminer: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery.adminer_2: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery.cliente: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery.nginx: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery.pagamento: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery.pedido: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery.rabbitmq_2: Compose Deployment.executor": "Run",
+    "Docker.sistema_delivery/Dockerfile.executor": "Run",
+    "Docker.sistema_delivery: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gabri/Downloads/sistema_delivery[1]",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15039062",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pedido-service\pedido-service" />
@@ -100,14 +105,14 @@
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\nginx" />
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery" />
+      <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\nginx" />
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pagamento-service" />
       <recent name="C:\Users\gabri\Downloads\pagamento-service" />
       <recent name="C:\Users\gabri\Downloads\sistema_delivery[1]\sistema_delivery\pagamento-service\pagamento-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClienteServiceApplication">
+  <component name="RunManager" selected="Application.PagamentoServiceApplication">
     <configuration name="ClienteServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tcc.cliente_service.ClienteServiceApplication" />
       <module name="cliente-service" />
@@ -127,6 +132,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tcc.pagamento_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PedidoServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tcc.pedido_service.PedidoServiceApplication" />
+      <module name="pedido-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tcc.pedido_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,46 +172,18 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="sistema_delivery.adminer_2: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="adminer_2" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="sistema_delivery/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="sistema_delivery.nginx: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="nginx" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="sistema_delivery/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.ClienteServiceApplication" />
       <item itemvalue="Application.PagamentoServiceApplication" />
-      <item itemvalue="Docker.sistema_delivery.adminer_2: Compose Deployment" />
-      <item itemvalue="Docker.sistema_delivery.nginx: Compose Deployment" />
+      <item itemvalue="Application.PedidoServiceApplication" />
       <item itemvalue="Docker.sistema_delivery: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PagamentoServiceApplication" />
+        <item itemvalue="Application.PedidoServiceApplication" />
         <item itemvalue="Application.ClienteServiceApplication" />
         <item itemvalue="Docker.sistema_delivery: Compose Deployment" />
-        <item itemvalue="Docker.sistema_delivery.nginx: Compose Deployment" />
-        <item itemvalue="Docker.sistema_delivery.adminer_2: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
