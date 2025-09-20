@@ -1,61 +1,83 @@
-# Sistema de Delivery
+# 🛵 Sistema de Delivery - TCC
+
+Projeto prático do TCC: **“A Utilização da Arquitetura Limpa com Microserviços”**  
+Este sistema de delivery foi desenvolvido com **3 microsserviços independentes**, utilizando **Spring Boot**, **Arquitetura Limpa**, **RabbitMQ** para mensageria assíncrona e **PostgreSQL** como banco de dados relacional.
 
 ---
 
-## Descrição do Projeto
-Este projeto é um sistema de gerenciamento de pedidos e clientes para um serviço de delivery. A arquitetura é baseada em **microsserviços**, utilizando **RabbitMQ** para a comunicação assíncrona entre os serviços. Todo o sistema é orquestrado com **Docker Compose** para facilitar o ambiente de desenvolvimento e implantação.
+## ⚙️ Microsserviços
 
-## Arquitetura
-A arquitetura do sistema é composta por três serviços principais que se comunicam através de filas de mensagens. Um proxy reverso NGINX atua como um gateway de API para rotear as requisições.
+- 🔹 Serviço de Cliente
+- 🔹 Serviço de Pedido
+- 🔹 Serviço de Pagamento
 
-* **`cliente-service`**: Gerencia o cadastro e informações dos clientes.
-* **`pedido-service`**: Recebe e gerencia os pedidos.
-* **`pagamento-service`**: Processa as transações de pagamento.
+---
 
-**Tecnologias Utilizadas:**
-* **Backend**: Java, Spring Boot, Spring Data JPA
-* **Banco de Dados**: PostgreSQL
-* **Mensageria**: RabbitMQ
-* **Infraestrutura**: Docker, Docker Compose, NGINX
+## 🧠 Como funciona o sistema de delivery?
 
-## Pré-requisitos
-Certifique-se de que você tem as seguintes ferramentas instaladas em sua máquina:
-* [Java Development Kit (JDK) 17](https://www.oracle.com/java/technologies/downloads/)
-* [Apache Maven 3.9+](https://maven.apache.org/download.cgi)
-* [Docker Desktop](https://www.docker.com/products/docker-desktop)
+Todos os microsserviços se comunicam entre si de forma **assíncrona via RabbitMQ** e possuem **seus próprios bancos de dados PostgreSQL**, garantindo o **princípio de independência de dados** nos microsserviços.
 
-## Como Rodar o Projeto
+---
 
-1.  **Clone o Repositório:**
-    ```bash
-    git clone [https://github.com/gameplaybiel/sistema_delivery.git](https://github.com/gameplaybiel/sistema_delivery.git)
-    cd sistema_delivery
-    ```
+## ▶️ Como executar o sistema
 
-2.  **Construa as Imagens e Suba os Contêineres:**
-    Este comando irá construir as imagens Docker para cada serviço e iniciar todos os contêineres do sistema (`postgres`, `rabbitmq` e os serviços da aplicação).
-    ```bash
-    docker-compose up --build
-    ```
+1. **Configure e inicie o Docker**:
+    - Rode o comando:
+      ```bash
+      docker-compose up -d
+      ```
 
-3.  **Acesse a Aplicação:**
-    O NGINX roteia as requisições para os serviços. Os endpoints da API estarão disponíveis através do proxy.
+2. **Execute os microsserviços** (um por um):
+    - Cliente
+    - Pedido
+    - Pagamento
 
-## Endpoints da API
-Você pode usar uma ferramenta como o Postman ou Insomnia para testar os endpoints.
+3. **Acesse as interfaces**:
+    - RabbitMQ: [http://localhost:15672](http://localhost:15672)  
+      (usuário: `guest` | senha: `guest`)
+    - Aplicações: geralmente acessíveis via `localhost:porta`
 
-* **`cliente-service`**
-    * `POST /clientes`: Cria um novo cliente.
-    * `GET /clientes/{id}`: Busca um cliente por ID.
+---
 
-* **`pedido-service`**
-    * `POST /pedidos`: Cria um novo pedido.
-    * `GET /pedidos/{id}`: Busca um pedido por ID.
+## ✅ Tecnologias Utilizadas
 
-* **`pagamento-service`**
-    * `POST /pagamentos`: Cria uma nova transação de pagamento.
-    * `GET /pagamentos/{id}`: Busca uma transação de pagamento por ID.
+- Spring Boot
+- Java 17
+- RabbitMQ
+- PostgreSQL
+- Docker & Docker Compose
+- Clean Architecture
 
-## Autor
-**Gabriel de Lima**
-* [GitHub](https://github.com/gameplaybiel)
+---
+## 🚧 Desafios enfrentados e como superei
+
+Durante o desenvolvimento do sistema, enfrentei alguns desafios importantes:
+
+- **Comunicação entre microsserviços de forma desacoplada**  
+  Como o objetivo era evitar acoplamento direto entre os serviços, implementei a comunicação via **RabbitMQ** usando troca de mensagens assíncronas (eventos). Isso exigiu aprendizado sobre filas, exchanges e consumers, e após alguns testes e ajustes, consegui estabelecer a troca eficiente de eventos entre Pedido, Pagamento e Cliente.
+
+- **Configuração do ambiente local com vários serviços**  
+  Inicialmente, era trabalhoso subir manualmente o banco de dados e o RabbitMQ para cada serviço. Resolvi isso criando um ambiente completo com **Docker Compose**, integrando todos os containers (RabbitMQ, PostgreSQL e os microsserviços), facilitando o desenvolvimento e testes locais.
+
+- **Separação de responsabilidades e estrutura do código**  
+  Ao aplicar a **Arquitetura Limpa**, foi desafiador manter os domínios realmente desacoplados e bem organizados. Estudei referências sobre camadas (Use Cases, Entities) e fui ajustando a estrutura até que cada serviço tivesse uma base sólida, de fácil manutenção e entendimento.
+
+Esses desafios me ajudaram a ganhar confiança na construção de sistemas distribuídos e reforçaram meu entendimento sobre boas práticas em arquitetura de software.
+
+---
+
+## 📚 O que eu aprendi com o projeto
+
+- Como aplicar arquitetura limpa em um contexto de microsserviços;
+- Comunicação assíncrona entre serviços usando RabbitMQ;
+- Isolamento de dados com PostgreSQL por serviço;
+- Criação de um ambiente local completo com Docker e Docker Compose;
+- Organização de código com separação de camadas e responsabilidades.
+
+---
+
+## 🧑‍💻 Autor
+
+Gabriel de Souza Conceição – Desenvolvedor Full Stack Java 💻  
+Esse sistema foi desenvolvido **individualmente**, como parte do Trabalho de Conclusão de Curso.  
+Mesmo sem equipe, com apoio técnico do orientador, todos os microsserviços foram desenvolvidos e integrados com sucesso.
