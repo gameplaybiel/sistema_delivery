@@ -1,0 +1,121 @@
+services:
+  rabbitmq_2:
+    image: rabbitmq:3-management
+    container_name: rabbitmq_2
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASSWORD: guest
+
+  postgres-client:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: gabriel18
+      POSTGRES_DB: cliente-db
+  
+  postgres-pedido:
+    image: postgres
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: gabriel18
+      POSTGRES_DB: pedido-db
+
+  postgres-pagamento:
+    image: postgres
+    restart: always
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: gabriel18
+      POSTGRES_DB: pagamento-db
+
+  cliente1:
+    image: client-app
+    restart: always
+    ports:
+      - "8083:8083"
+    depends_on:
+      rabbitmq_2:
+        condition: service_started
+      postgres-client:
+        condition: service_started
+
+  cliente2:
+    image: client-app
+    restart: always
+    ports:
+      - "8087:8083"
+    depends_on:
+      rabbitmq_2:
+        condition: service_started
+      postgres-client:
+        condition: service_started
+
+  pedido1:
+    image: pedido-app
+    restart: always
+    ports:
+      - "8084:8084"
+    depends_on:
+       rabbitmq_2:
+          condition: service_started
+       postgres-pedido:
+        condition: service_started
+
+  pedido2:
+    image: pedido-app
+    restart: always
+    ports:
+      - "8088:8084"
+    depends_on:
+      rabbitmq_2:
+        condition: service_started
+      postgres-pedido:
+        condition: service_started
+
+  pagamento1:
+    image: pagamento-app
+    restart: always
+    ports:
+      - "8085:8085"
+    depends_on:
+      rabbitmq_2:
+        condition: service_started
+      postgres-pagamento:
+        condition: service_started
+
+  pagamento2:
+    image: pagamento-app
+    restart: always
+    ports:
+      - "8089:8085"
+    depends_on:
+      rabbitmq_2:
+        condition: service_started
+      postgres-pagamento:
+        condition: service_started
+
+  #nginx:
+  #  image: nginx:latest
+  #  container_name: nginx
+  #  ports:
+  #    - "8093:80"
+  #  volumes:
+  #  #  - /c/Users/gabri/Downloads/sistema_delivery[1]/sistema_delivery/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #  depends_on:
+  #    - cliente1
+  #    - cliente2
+  #    - pedido1
+  #    - pedido2
+  #    - pagamento1
+  #    - pagamento2

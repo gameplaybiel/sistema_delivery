@@ -1,0 +1,32 @@
+# Ignore arquivos de build do Maven
+target/
+**/target/
+
+# Eclipse e IntelliJ IDEA
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do sistema local
+*.swp
+*.swo
+
+# Arquivos gerados pelo Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de configuração do Spring Boot local
+*.properties
+!src/main/resources/application.properties
+*.yml
+!src/main/resources/application.yml
+
+# Diretórios do sistema operacional
+*.class
