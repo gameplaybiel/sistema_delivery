@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class RabbitMQConfig {
-    public static final String CLIENTE_CRIADO_QUEUE = "cliente.queue";
+    public static final String CLIENTE_CRIADO_QUEUE = "cliente.criado.queue";
     public static final String CLIENTE_EXCHANGE = "cliente.exchange";
     public static final String CLIENTE_ROUTING_KEY = "cliente.criado.queue";
 
