@@ -3,7 +3,8 @@ services:
     image: rabbitmq:3-management
     container_name: rabbitmq_2
     ports:
-      - "5672:5672"
+      - "5673:5673"
+      - "15672:15672"
     environment:
       RABBITMQ_DEFAULT_USER: guest
       RABBITMQ_DEFAULT_PASSWORD: guest
@@ -66,9 +67,9 @@ services:
     ports:
       - "8084:8084"
     depends_on:
-       rabbitmq_2:
-          condition: service_started
-       postgres-pedido:
+      rabbitmq_2:
+        condition: service_started
+      postgres-pedido:
         condition: service_started
 
   pedido2:

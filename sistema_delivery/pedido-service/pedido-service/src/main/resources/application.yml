@@ -14,7 +14,7 @@ app:
       deletado: pedido.deletado.queue
 
 pagamento-service:
-  base-url: http:localghost:8092/pagamento
+  base-url: http:localhost:8092/pagamento
 
 logging:
   level:
