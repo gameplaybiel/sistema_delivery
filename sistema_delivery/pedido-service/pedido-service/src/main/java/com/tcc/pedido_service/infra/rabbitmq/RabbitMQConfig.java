@@ -4,8 +4,6 @@ import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
-import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -15,11 +13,6 @@ public class RabbitMQConfig {
     public static final String PEDIDO_EXCHANGE = "pedido.exchange";
     public static final String PEDIDO_CRIADO_QUEUE = "pedido.criado.queue";
     public static final String CRIADO_ROUTING_KEY = "pedido.criado.queue";
-
-    @Bean
-    public MessageConverter jsonMessageConverter(){
-        return new Jackson2JsonMessageConverter();
-    }
 
     @Bean
     public DirectExchange pedidoExchange() {
