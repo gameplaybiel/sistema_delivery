@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMQConfig {
     // Nomes consistentes com os usados no Publisher
     public static final String PEDIDO_EXCHANGE = "pedido.exchange";
-    public static final String PEDIDO_CRIADO_QUEUE = "pedido.criado.queue";
+    public static final String PEDIDO_CRIADO_QUEUE = "pedido.queue";
     public static final String CRIADO_ROUTING_KEY = "pedido.criado.queue";
 
     @Bean
