@@ -87,7 +87,7 @@ services:
     image: pagamento-app
     restart: always
     ports:
-      - "8085:8085"
+      - "8093:8093"
     depends_on:
       rabbitmq_2:
         condition: service_started
@@ -98,7 +98,7 @@ services:
     image: pagamento-app
     restart: always
     ports:
-      - "8089:8085"
+      - "8089:8093"
     depends_on:
       rabbitmq_2:
         condition: service_started
